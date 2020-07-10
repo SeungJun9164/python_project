@@ -52,7 +52,7 @@ def start():
         msgbox.showwarning("경고", "저장 경로를 추가하십시오.")
         return
 
-# 파일 프레임 *(파일 추가, 선택 삭제)
+# 파일 프레임 (파일 추가, 선택 삭제)
 file_frame = Frame(root)
 file_frame.pack(fill="x", padx=5, pady=5) # fill="x" : x축 방향으로 채워짐
 
