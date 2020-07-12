@@ -209,6 +209,5 @@ btn_close.pack(side="right", padx=5, pady=5)
 btn_start = Button(frame_run, padx=5, pady=5, text="시작", width=12, command=start)
 btn_start.pack(side="right", padx=5, pady=5)
 
-
 root.resizable(False, False)
 root.mainloop()
